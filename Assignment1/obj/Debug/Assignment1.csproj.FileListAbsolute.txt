@@ -1,0 +1,28 @@
+C:\Users\H\Desktop\Assignment1\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\H\Desktop\Assignment1\Assignment1\bin\Debug\Assignment1.exe
+C:\Users\H\Desktop\Assignment1\Assignment1\bin\Debug\Assignment1.pdb
+C:\Users\H\Desktop\Assignment1\Assignment1\obj\Debug\Assignment1.csprojResolveAssemblyReference.cache
+C:\Users\H\Desktop\Assignment1\Assignment1\obj\Debug\Assignment1.Form1.resources
+C:\Users\H\Desktop\Assignment1\Assignment1\obj\Debug\Assignment1.Properties.Resources.resources
+C:\Users\H\Desktop\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.GenerateResource.Cache
+C:\Users\H\Desktop\Assignment1\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\H\Desktop\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
+C:\Users\H\Desktop\Assignment1\Assignment1\obj\Debug\Assignment1.Form2.resources
+C:\Users\H\Desktop\Assignment1\Assignment1\obj\Debug\Assignment1.Form3.resources
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\bin\Debug\Assignment1.exe
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\bin\Debug\Assignment1.pdb
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.csprojResolveAssemblyReference.cache
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.Properties.Resources.resources
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.GenerateResource.Cache
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.Info.resources
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.Select.resources
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.Mic.resources
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.Ov.resources
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.MicPicture.resources
+C:\Users\H\Desktop\WebSer C#\Assignment1\Assignment1\obj\Debug\Assignment1.OvPicture.resources
+C:\Users\H\Desktop\Sheridan\semester4\Web Services C#\assignments\Assignment1\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\H\Desktop\Sheridan\semester4\Web Services C#\assignments\Assignment1\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\H\Desktop\Sheridan\semester4\Web Services C#\assignments\Assignment1\Assignment1\obj\Debug\Assignment1.pdb

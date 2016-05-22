@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30C7359F-A0D6-4F82-93D2-56C13E992E77}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assignment1</RootNamespace>
+    <AssemblyName>Assignment1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MicPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MicPicture.Designer.cs">
+      <DependentUpon>MicPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oven.cs" />
+    <Compile Include="OvPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvPicture.Designer.cs">
+      <DependentUpon>OvPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select.Designer.cs">
+      <DependentUpon>Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mic.Designer.cs">
+      <DependentUpon>Mic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ov.Designer.cs">
+      <DependentUpon>Ov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Microwave.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MicPicture.resx">
+      <DependentUpon>MicPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ov.resx">
+      <DependentUpon>Ov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvPicture.resx">
+      <DependentUpon>OvPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select.resx">
+      <DependentUpon>Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mic.resx">
+      <DependentUpon>Mic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\download.png" />
+    <Content Include="images\m.jpg" />
+    <Content Include="images\o.jpg" />
+    <Content Include="images\popcorn_Vector_Clipart.png" />
+    <Content Include="images\rabbit-animal-pictures-god-pets-easter-bunnies-baby-bunnies-baby.jpg" />
+    <Content Include="images\RcdBnAzc9.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
